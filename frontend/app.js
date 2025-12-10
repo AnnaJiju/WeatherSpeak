@@ -47,7 +47,7 @@ async function recordAudio() {
             status.innerText = "📤 Uploading audio to server...";
 
             try {
-                const response = await fetch("http://127.0.0.1:8000/process-audio", {
+                const response = await fetch("https://weatherspeak.onrender.com/process-audio", {
                     method: "POST",
                     body: formData,
                 });
