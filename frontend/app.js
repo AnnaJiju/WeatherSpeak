@@ -74,7 +74,7 @@ async function recordAudio() {
                 } else {
                     // Remove leading slash if present
                     audioPath = audioPath.startsWith('/') ? audioPath.slice(1) : audioPath;
-                    audioUrl = `http://127.0.0.1:8000/${audioPath}`;
+                    audioUrl = `https://weatherspeak.onrender.com/${audioPath}`;
                 }
                 
                 console.log('Playing audio from:', audioUrl);
