@@ -1,9 +1,9 @@
-🌤️ WeatherSpeak- A weather voice agent
+🌤️## WeatherSpeak- A weather voice agent
 
 A real-time voice-powered weather application that lets you ask about weather conditions in any city using natural speech. Simply speak your question, and get instant audio responses!
 
 
-✨ Features
+✨## Features
 
 🎙️ Voice Recognition - Speak naturally using OpenAI Whisper for accurate transcription
 
@@ -18,7 +18,7 @@ A real-time voice-powered weather application that lets you ask about weather co
 🔒 Privacy Focused - All processing happens locally, no data stored
 
 
-🎬 Demo
+🎬## Demo
 How to Use:
 
 Click "Start Recording"
@@ -39,8 +39,8 @@ Supported Question Patterns:
 "How's the weather for [city]?"
 
 
-🛠️ Tech Stack
-Frontend
+🛠️## Tech Stack
+##Frontend
 
 HTML5 - Structure and layout
 
@@ -51,7 +51,7 @@ JavaScript (Vanilla) - No frameworks needed
 MediaRecorder API - Browser audio capture
 
 
-Backend
+##Backend
 
 FastAPI - Modern Python web framework
 
@@ -62,7 +62,7 @@ gTTS - Google Text-to-Speech engine
 OpenWeatherMap API - Comprehensive weather data
 
 
-Python Libraries
+##Python Libraries
 fastapi          # Web framework
 
 uvicorn          # ASGI server
@@ -75,7 +75,7 @@ requests         # HTTP client
 
 python-dotenv    # Environment management
 
-📋 Prerequisites
+##📋 Prerequisites
 
 Before you begin, ensure you have:
 
@@ -86,7 +86,7 @@ pip - Python package installer (comes with Python)
 OpenWeatherMap API Key - Get free API key
 
 
-🚀 Installation
+##🚀 Installation
 1. Clone the Repository
    
 bashgit clone https://github.com/yourusername/weather-voice-agent.git
@@ -145,7 +145,7 @@ Copy your API key
    
 bashmkdir responses
 
-💻 Usage
+##💻 Usage
 
 Start the Application
 
