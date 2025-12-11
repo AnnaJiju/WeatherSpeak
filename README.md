@@ -59,7 +59,7 @@ requests         # HTTP client
 
 python-dotenv    # Environment management
 
-##📋 Prerequisites
+##📋 ** Prerequisites **
 
 Before you begin, ensure you have:
 
@@ -70,7 +70,7 @@ pip - Python package installer (comes with Python)
 OpenWeatherMap API Key - Get free API key
 
 
-##🚀 Installation
+##🚀 **Installation **
 1. Clone the Repository
    
 bashgit clone https://github.com/yourusername/weather-voice-agent.git
@@ -129,7 +129,7 @@ Copy your API key
    
 bashmkdir responses
 
-##💻 Usage
+##💻 **Usage **
 
 Start the Application
 
