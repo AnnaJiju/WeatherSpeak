@@ -1,68 +1,52 @@
-🌤️## WeatherSpeak- A weather voice agent
+# 🌤️ **Weather Voice Agent**
 
-A real-time voice-powered weather application that lets you ask about weather conditions in any city using natural speech. Simply speak your question, and get instant audio responses!
+A real-time **voice-powered weather application** that lets you ask about weather conditions in any city using natural speech.  
+Simply speak your question — get instant audio responses!
 
+---
 
-✨## Features
+# ✨ **Features**
 
-🎙️ Voice Recognition - Speak naturally using OpenAI Whisper for accurate transcription
+- 🎙️ **Voice Recognition** — Natural speech using OpenAI Whisper  
+- 🌍 **Real-time Weather** — Live weather data from OpenWeatherMap API  
+- 🔊 **Voice Response** — Natural TTS output  
+- 🎨 **Beautiful UI** — Clean, gradient modern interface  
+- ⚡ **Fast Processing** — Quick audio → text → weather → voice  
+- 🔒 **Privacy Focused** — No stored data  
 
-🌍 Real-time Weather - Get current weather data from OpenWeatherMap API
+---
 
-🔊 Voice Response - Hear weather details with natural text-to-speech
+# 🎬 **Demo**
 
-🎨 Beautiful UI - Clean, modern interface with gradient backgrounds
+### **How to Use**
+1. Click **Start Recording**
+2. Ask: _“What’s the weather in Mumbai?”_
+3. Wait 5 seconds for recording
+4. Get instant **voice weather response**
 
-⚡ Fast Processing - Quick transcription and response generation
+### **Supported Question Formats**
+- “What’s the weather in **[city]**?”
+- “Tell me the weather at **[city]**”
+- “How’s the weather for **[city]**?”
 
-🔒 Privacy Focused - All processing happens locally, no data stored
+---
 
+# 🛠️ **Tech Stack**
 
-🎬## Demo
-How to Use:
+## **Frontend**
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- MediaRecorder API  
 
-Click "Start Recording"
+## **Backend**
+- FastAPI  
+- OpenAI Whisper  
+- gTTS – Google Text-to-Speech  
+- OpenWeatherMap API  
 
-Speak your question: "What's the weather in Mumbai?"
+## **Python Libraries Used**
 
-Wait 5 seconds for recording to complete
-
-Get instant voice response with weather details!
-
-
-Supported Question Patterns:
-
-"What's the weather in [city]?"
-
-"Tell me the weather at [city]"
-
-"How's the weather for [city]?"
-
-
-🛠️## Tech Stack
-##Frontend
-
-HTML5 - Structure and layout
-
-CSS3 - Styling with modern gradients
-
-JavaScript (Vanilla) - No frameworks needed
-
-MediaRecorder API - Browser audio capture
-
-
-##Backend
-
-FastAPI - Modern Python web framework
-
-OpenAI Whisper - State-of-the-art speech recognition
-
-gTTS - Google Text-to-Speech engine
-
-OpenWeatherMap API - Comprehensive weather data
-
-
-##Python Libraries
 fastapi          # Web framework
 
 uvicorn          # ASGI server
